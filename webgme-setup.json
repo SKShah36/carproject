@@ -1,0 +1,17 @@
+{
+  "components": {
+    "plugins": {
+      "calculatecost": {
+        "src": "src/plugins/calculatecost",
+        "test": "test/plugins/calculatecost"
+      },
+      "CostCalculator": {
+        "src": "src/plugins/CostCalculator",
+        "test": "test/plugins/CostCalculator"
+      }
+    }
+  },
+  "dependencies": {
+    "plugins": {}
+  }
+}
