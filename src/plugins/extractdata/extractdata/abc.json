@@ -1,0 +1,284 @@
+{
+  "name": "ROOT",
+  "Children": {
+    "/1": {
+      "name": "FCO",
+      "isMeta": true,
+      "metaType": "FCO",
+      "Children": {}
+    },
+    "/D": {
+      "name": "Language",
+      "isMeta": true,
+      "metaType": "Language",
+      "Children": {
+        "/D/2": {
+          "name": "Electric",
+          "isMeta": true,
+          "metaType": "Electric",
+          "price": 2000,
+          "Children": {}
+        },
+        "/D/3": {
+          "name": "Brake",
+          "isMeta": true,
+          "metaType": "Brake",
+          "BrakeType": "",
+          "Children": {}
+        },
+        "/D/V": {
+          "name": "Tyre",
+          "isMeta": true,
+          "metaType": "Tyre",
+          "Children": {}
+        },
+        "/D/r": {
+          "name": "Wheels",
+          "isMeta": true,
+          "metaType": "Wheels",
+          "WheelType": "",
+          "Children": {}
+        },
+        "/D/y": {
+          "name": "Connection",
+          "isMeta": true,
+          "metaType": "Connection",
+          "Children": {}
+        },
+        "/D/R": {
+          "name": "Multi-link",
+          "isMeta": true,
+          "metaType": "Multi-link",
+          "price": 180,
+          "Children": {}
+        },
+        "/D/L": {
+          "name": "Semi-trail arm",
+          "isMeta": true,
+          "metaType": "Semi-trail arm",
+          "price": 120,
+          "Children": {}
+        },
+        "/D/P": {
+          "name": "Car_Repo",
+          "isMeta": true,
+          "metaType": "Car_Repo",
+          "Children": {}
+        },
+        "/D/Q": {
+          "name": "Swing axle",
+          "isMeta": true,
+          "metaType": "Swing axle",
+          "price": 150,
+          "Children": {}
+        },
+        "/D/T": {
+          "name": "Car",
+          "isMeta": true,
+          "metaType": "Car",
+          "Children": {}
+        },
+        "/D/X": {
+          "name": "Engine",
+          "isMeta": true,
+          "metaType": "Engine",
+          "Children": {}
+        },
+        "/D/c": {
+          "name": "Controls",
+          "isMeta": true,
+          "metaType": "Controls",
+          "Children": {}
+        },
+        "/D/N": {
+          "name": "Frontdrive",
+          "isMeta": true,
+          "metaType": "Frontdrive",
+          "price": 550,
+          "Children": {}
+        },
+        "/D/m": {
+          "name": "ICE",
+          "isMeta": true,
+          "metaType": "ICE",
+          "price": 1200,
+          "Children": {}
+        },
+        "/D/Z": {
+          "name": "DriveTrain",
+          "isMeta": true,
+          "metaType": "DriveTrain",
+          "Children": {}
+        },
+        "/D/Y": {
+          "name": "AllDrive",
+          "isMeta": true,
+          "metaType": "AllDrive",
+          "price": 700,
+          "Children": {}
+        },
+        "/D/h": {
+          "name": "Suspension",
+          "isMeta": true,
+          "metaType": "Suspension",
+          "Children": {}
+        }
+      }
+    },
+    "/g": {
+      "name": "Car_Repository",
+      "isMeta": false,
+      "metaType": "Car_Repo",
+      "Children": {
+        "/g/q": {
+          "name": "BMW-3-Series",
+          "isMeta": false,
+          "metaType": "Car",
+          "Children": {
+            "/g/q/4": {
+              "name": "BMW Inline",
+              "isMeta": false,
+              "metaType": "ICE",
+              "price": 1200,
+              "Children": {}
+            },
+            "/g/q/e": {
+              "name": "Frontdrive",
+              "isMeta": false,
+              "metaType": "Frontdrive",
+              "price": 550,
+              "Children": {}
+            },
+            "/g/q/A": {
+              "name": "Controls",
+              "isMeta": false,
+              "metaType": "Controls",
+              "src": "BMW Inline",
+              "dst": "Frontdrive",
+              "Children": {}
+            },
+            "/g/q/N": {
+              "name": "Controls",
+              "isMeta": false,
+              "metaType": "Controls",
+              "src": "Frontdrive",
+              "dst": "Wheels",
+              "Children": {}
+            },
+            "/g/q/D": {
+              "name": "Multi-link Suspension",
+              "isMeta": false,
+              "metaType": "Multi-link",
+              "price": 180,
+              "Children": {}
+            },
+            "/g/q/Q": {
+              "name": "Brake",
+              "isMeta": false,
+              "metaType": "Brake",
+              "BrakeType": "DiscBrake",
+              "Children": {}
+            },
+            "/g/q/u": {
+              "name": "Connection",
+              "isMeta": false,
+              "metaType": "Connection",
+              "src": "Wheels",
+              "dst": "Multi-link Suspension",
+              "Children": {}
+            },
+            "/g/q/I": {
+              "name": "Wheels",
+              "isMeta": false,
+              "metaType": "Wheels",
+              "WheelType": "Alloy Wheel",
+              "Children": {}
+            },
+            "/g/q/m": {
+              "name": "Controls",
+              "isMeta": false,
+              "metaType": "Controls",
+              "src": "Brake",
+              "dst": "Wheels",
+              "Children": {}
+            }
+          }
+        },
+        "/g/j": {
+          "name": "Toyota RAV-4",
+          "isMeta": false,
+          "metaType": "Car",
+          "Children": {
+            "/g/j/1": {
+              "name": "AllDrive",
+              "isMeta": false,
+              "metaType": "AllDrive",
+              "price": 700,
+              "Children": {}
+            },
+            "/g/j/j": {
+              "name": "Controls",
+              "isMeta": false,
+              "metaType": "Controls",
+              "src": "Brake",
+              "dst": "Wheels",
+              "Children": {}
+            },
+            "/g/j/k": {
+              "name": "Controls",
+              "isMeta": false,
+              "metaType": "Controls",
+              "src": "V6",
+              "dst": "AllDrive",
+              "Children": {}
+            },
+            "/g/j/g": {
+              "name": "Controls",
+              "isMeta": false,
+              "metaType": "Controls",
+              "src": "AllDrive",
+              "dst": "Wheels",
+              "Children": {}
+            },
+            "/g/j/W": {
+              "name": "Swing axle",
+              "isMeta": false,
+              "metaType": "Swing axle",
+              "price": 150,
+              "Children": {}
+            },
+            "/g/j/l": {
+              "name": "V6",
+              "isMeta": false,
+              "metaType": "ICE",
+              "price": 1200,
+              "Children": {}
+            },
+            "/g/j/A": {
+              "name": "Brake",
+              "isMeta": false,
+              "metaType": "Brake",
+              "BrakeType": "DrumBrake",
+              "Children": {}
+            },
+            "/g/j/H": {
+              "name": "Wheels",
+              "isMeta": false,
+              "metaType": "Wheels",
+              "WheelType": "",
+              "Children": {}
+            },
+            "/g/j/a": {
+              "name": "Connection",
+              "isMeta": false,
+              "metaType": "Connection",
+              "src": "Swing axle",
+              "dst": "Wheels",
+              "Children": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

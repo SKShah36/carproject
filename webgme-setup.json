@@ -8,6 +8,10 @@
       "CostCalculator": {
         "src": "src/plugins/CostCalculator",
         "test": "test/plugins/CostCalculator"
+      },
+      "extractdata": {
+        "src": "src/plugins/extractdata",
+        "test": "test/plugins/extractdata"
       }
     }
   },

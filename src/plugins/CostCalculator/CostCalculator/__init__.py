@@ -131,7 +131,7 @@ class CostCalculator(PluginBase):
             total_cost += cost
 
         code_text += 'Total cost of car configuration is {}$\n'.format(total_cost)
-        
+
         return code_text
 
     def save_code(self):
